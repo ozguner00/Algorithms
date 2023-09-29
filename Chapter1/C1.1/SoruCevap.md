@@ -1,0 +1,9 @@
+- ##### Java bytecode programın Java sanal makinesinde çalışan düşük seviyeli sürümüdür. Java'nın değişik cihazlarda çalışmasını geliştiriciler için kolaylaştırmaktadır.
+- ##### Java int değerler için taşmaya izin verir. Bunun sebebi int veri tipinin ilkel veri tipi olmasıdır.
+- ##### Bir double değerine başlangıç değerini sonsuz vermek için Double.POSITIVE_INFINITY & Double.NEGATIVE.INFINITY kullanırız.
+- ##### Başlangıç değeri vermeden değişken kullanmaya kalkarsak `derleme hatası` alırız.
+- ##### `1/0 -> çalışma istisnası` üretir. `1.0/0.0 -> Infinity `değerini alır.
+- ##### Dizilerin 0 ile başlaması makine-dili programlanmasından kaynaklanmaktadır. Dizi elemanın adresi, dizinin başlangıcına adresin indeksinin eklenmesi ile hesaplanmaktadır. Başlangıç indeksinin 1 olması dizinin başında bir boş yer bırakılması ile boşa gitmesine ya da 1 çıkartma işlemi yaparak zamanın boşa gitmesine neden olacaktır.
+- ##### a[] dizisini direkt olarak çıktı almaya kalkarsak 16'lık tabanda bir tam sayı değeri alırız. Bunun sebebi dizinin adresini basmasıdır. Dizisi basmak için ise `Arrays.toString(a)` kullanabiliriz.
+- ##### **Javada bir statik metot diğer bir statik metodu argüman olarak alamaz.**
+- ##### 

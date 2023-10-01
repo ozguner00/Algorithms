@@ -54,6 +54,7 @@ public class Page56Alistirmalar {
         System.out.println(exR1(6)); //311361142246
 
 
+
     }
     public static void ex1_1_11(boolean[][] key){
         int M = key.length;

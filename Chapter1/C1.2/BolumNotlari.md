@@ -44,3 +44,25 @@ kopyasının çıkarılması). Fakat nesneyi referans olarak iletmektir.
 
 `Nesne değişkenlerinin ilkel nümerik veri tipleri için varsayılan değeri 0, boolean tip için false ve referans tipi için null olur.`
 
+### Kapsülleme
+
+Kapsüllenmiş bir veri tipi herhangi bir programda kullanılabilir.
+Büyük programları bağımsız olarak geliştirebilecek küçük modüllere
+parçalamaya olanak sağlar.
+- İstemci ve uygulam kodlarının birbirinden bağımsız olarak geliştirilmesine olanak sağlar.
+- Henüz yazılmamış programlara destek sağlar.
+- Olabilecek hataları engeller.
+- Uygulamalara tutarlılık kontrolü ve hata ayıklama araçları sunar.
+- Program kodunun temiz olmasını sağlar.
+- 
+`API lerin tasarımı : İstemciye ihtiyaçları olan metotları sağlayın başkasını değil.`
+
+### Uygulama kalıtımı
+
+Java, alt sınıflar olarak bilinen miras alma yöntemine sahiptir.
+Programcılara, çalışma şeklini ve işlevsellğini, tüm sınıfı tekrardan yazmadan değiştirebilme yeteneği tanıyan güçlü bir tekniktir.
+Buradaki fikir , örnek metotlarını ve örnek değişkenlerini bir başka sınıftan
+(süper sınıf ya da temel sınıf) miras alan yeni bir sınıf tanımlamaktır.
+Alt sınıflar, süper sınıflara göre çok daha fazla metot içerir. Ayrıca,
+alt sınıflar süper sınıflardaki metotları tekrardan tanımlayabilir ya da ezebilir.
+
